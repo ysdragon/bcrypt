@@ -55,7 +55,9 @@ aPackageInfo = [
 	],
 	:linuxfiles = 	[
 		"lib/linux/amd64/libring_bcrypt.so",
-		"lib/linux/arm64/libring_bcrypt.so"
+		"lib/linux/arm64/libring_bcrypt.so",
+		"lib/linux/musl/amd64/libring_bcrypt.so",
+		"lib/linux/musl/arm64/libring_bcrypt.so"
 	],
 	:ubuntufiles = 	[
 
